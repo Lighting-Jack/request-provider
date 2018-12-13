@@ -15,12 +15,6 @@
 npm install request-provider -g
 ```
 
-## Quick Start
-
-```
-scf init
-```
-
 ## Licence
 
 MIT
