@@ -13,6 +13,9 @@
     "release": "standard-version",
     "pub": "git push --follow-tags origin master && npm publish"
   },
+  "engines": {
+    "node": ">= 7.6.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.2.0",
     "@types/es6-promise": "^3.3.0",
@@ -35,5 +38,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "keywords": [
+    "request",
+    "AOP"
+  ]
 }
