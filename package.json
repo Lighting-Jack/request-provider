@@ -1,6 +1,6 @@
 {
   "name": "request-provider",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1",
   "description": "request library with AOP",
   "main": "./dist/index.js",
   "repository": "https://github.com/Lighting-Jack/request-provider",
@@ -10,7 +10,8 @@
     "init": "commitizen init cz-conventional-changelog --save --save-exact",
     "build": "tsc --outDir dist/ -p tsconfig.json",
     "tsn": "ts-node --no-cache",
-    "release": "standard-version"
+    "release": "standard-version",
+    "pub": "git push --follow-tags origin master && npm publish"
   },
   "devDependencies": {
     "@babel/core": "^7.2.0",
