@@ -2,8 +2,10 @@ version: 2.1
 
 jobs:
   build:
+    working_directory: ~/request-provider
     docker:
       - image: circleci/node:11
     steps:
+      - run: ls -al ~/
       - run: yarn --version
       - run: npm run test
