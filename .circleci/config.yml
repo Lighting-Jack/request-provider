@@ -8,5 +8,6 @@ jobs:
     steps:
       - checkout
       - run: ls -al ~/request-provider
+      - run: yarn install
       - run: yarn --version
       - run: npm run test
