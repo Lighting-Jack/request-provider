@@ -6,6 +6,7 @@ jobs:
     docker:
       - image: circleci/node:11
     steps:
-      - run: ls -al ~/
+      - checkout
+      - run: ls -al ~/request-provider
       - run: yarn --version
       - run: npm run test
