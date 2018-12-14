@@ -11,7 +11,8 @@
     "build": "tsc --outDir dist/ -p tsconfig.json",
     "tsn": "ts-node --no-cache",
     "release": "standard-version",
-    "pub": "git push --follow-tags origin master && npm publish"
+    "pub": "git push --follow-tags origin master && npm publish",
+    "test": "jest"
   },
   "engines": {
     "node": ">= 7.6.0"
@@ -25,6 +26,7 @@
     "commitizen": "^3.0.5",
     "cross-env": "^5.2.0",
     "cz-conventional-changelog": "^2.1.0",
+    "jest": "^23.6.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
     "standard-version": "^4.4.0",
