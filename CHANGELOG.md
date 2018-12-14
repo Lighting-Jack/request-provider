@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.0.6"></a>
+## [0.0.6](https://github.com/Lighting-Jack/request-provider/compare/v0.0.5...v0.0.6) (2018-12-14)
+
+
+### Features
+
+* **ci:** fix ci ([8b7e361](https://github.com/Lighting-Jack/request-provider/commit/8b7e361))
+
+
+
 <a name="0.0.5"></a>
 ## [0.0.5](https://github.com/Lighting-Jack/request-provider/compare/v0.0.4...v0.0.5) (2018-12-13)
 
