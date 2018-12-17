@@ -52,11 +52,11 @@ requestAop.performAsync(request, null, {
 
 ## PerformSync & PerformAsync
 
-TransactionImpl 的实例提供了 PerformSync 和 PerformAsync 两个公共 api， 分别对应于同步和异步的处理场景。
+TransactionImpl 的实例提供了 PerformSync 和 PerformAsync 两个公共 api，分别对应于同步和异步的处理场景。
 
 | 入参         |          含义           |
 | :----------- | :---------------------: |
-| method       |   将该函数视为切入点   |
+| method       |   将该函数视为切入点    |
 | scope        |   切入点所在的作用域    |
 | ...arguments | 切入点最多支持 6 个入参 |
 
