@@ -44,20 +44,21 @@ requestAop.performAsync(request, null, {
 ## Wrapper
 
 你需要自定义`wrapper`，wrapper 是包含下面两个属性的普通对象
-|属性|含义|
-|:-|:-:|-:|
-|initial| 切入点的前置函数组|
-|close|切入点的后置函数组|
+
+| 属性    |        含义        |
+| :------ | :----------------: |
+| initial | 切入点的前置函数组 |
+| close   | 切入点的后置函数组 |
 
 ## PerformSync & PerformAsync
 
-TransactionImpl 的实例提供了 PerformSync 和 PerformAsync 两个公共 api， 分别  对应于同步和异步的处理场景。
-
-|入参|含义|
-|:-|:-:|-:|
-|method| 将该函数视为切入点|
-|scope|切入点所在的作用域|
-|...arguments|切入点最多支持 6 个入参|
+TransactionImpl 的实例提供了 PerformSync 和 PerformAsync 两个公共 api， 分别对应于同步和异步的处理场景。
+
+| 入参         |          含义           |
+| :----------- | :---------------------: |
+| method       |   将该函数视为切入点   |
+| scope        |   切入点所在的作用域    |
+| ...arguments | 切入点最多支持 6 个入参 |
 
 ## Action Flow
 
